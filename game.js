@@ -5,8 +5,8 @@ class Game {
 		this.canvas = document.getElementById("canvas");
 		this.music=new Sound("./sounds/soundtrack.mp3");		
 		this.music.play_started=true;	
-		this.clickSound = new Sound("./sounds/jump.mp3");
-		this.clickSound.sound.volume = 0.5;
+		this.jumpSound = new Sound("./sounds/jump.mp3");
+		this.jumpSound.sound.volume = 0.5;
 		
 	this.mousePosition = {
       x: 0,

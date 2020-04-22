@@ -9,14 +9,14 @@ const IMAGES = [
     {name: 'background', src: 'img/pozadie.svg'},
     {name: 'background1', src: 'img/pozadie1.svg'},
     {name: 'gameover', src: 'img/gameover.svg'},
-	{name: 'play', src: 'img/play.svg'},
-	{name: 'instructions', src: 'img/instructions.svg'},
+	{name: 'play', src: 'img/play.png'},
+	{name: 'instructions', src: 'img/instructions.png'},
 	{name: 'home', src: 'img/home.svg'},
     {name: 'soundon', src: 'img/zvuk1.png'},
     {name: 'soundoff', src: 'img/zvuk2.png'},
 	
 ];
-// toto sluzi na inicialne loadnutie vsetkych obrazkov... aby to nebolo ako hidden image v html
+
 class ResourceManager {
     loadedImages = new Map();
 
@@ -29,11 +29,6 @@ class ResourceManager {
             IMAGES.map(image => this.loadImage(image)),
         )
     }
-	
-    // dynamicky vytvorenie Image objectov spolu s tym aby sa nacitali obrazky
-    // pouzili sa promise a async/await -> lepsie sa pracuje s asynchronnymi operaciami pri nacitavani obrazkov
-    // nejaky tutorial ako to funguje -> 
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
    
     async loadImage(imgResource) {
         return new Promise((resolve, reject) => {
@@ -49,7 +44,6 @@ class ResourceManager {
         });
     }
 
-    // ziskat js object Image, ktory sa posle do canvas
     getImageSource(imageName) {
         const image = this.loadedImages.get(imageName);
         if (image == null) {
