@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="196mm"
+   height="44mm"
+   viewBox="0 0 196 44"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="instructions.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="38.003375"
+     inkscape:cy="441.62441"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1089"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-253)">
+    <g
+       id="g1089"
+       transform="translate(3.7297502e-8,-1.1339286)">
+      <g
+         id="g823">
+        <rect
+           ry="9.1890182"
+           transform="matrix(0.99999541,-0.00302919,0.01365181,0.99990681,0,0)"
+           inkscape:transform-center-y="-1.3928503"
+           inkscape:transform-center-x="5.252777"
+           y="257.14453"
+           x="-1.4492331"
+           height="39.446121"
+           width="191.39862"
+           id="rect940"
+           style="opacity:1;fill:#ff7f2a;fill-opacity:1;stroke:#d45500;stroke-width:3.04108572;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <flowRoot
+           inkscape:transform-center-x="-1.4966106"
+           transform="matrix(0.76236032,0,0,1.0621202,-211.40908,102.98496)"
+           style="font-style:normal;font-weight:normal;font-size:29.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot957"
+           xml:space="preserve"><flowRegion
+             id="flowRegion959"><rect
+               y="146.55794"
+               x="290"
+               height="46.786983"
+               width="237.59654"
+               id="rect961" /></flowRegion><flowPara
+             id="flowPara963">INSTRUCTIONSS</flowPara></flowRoot>      </g>
+    </g>
+  </g>
+</svg>
