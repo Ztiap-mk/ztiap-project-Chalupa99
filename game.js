@@ -36,7 +36,9 @@ class Game {
     // Set up canvas for 2D rendering
     
     ctx = canvas.getContext("2d");
-
+    
+    // tato funkcia sa vola v html pri startovani hry
+    // inicializuje obrazky + vytvara objekty
     async start() {
         console.log('starting game');
         await resourceManager.init();

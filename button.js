@@ -35,10 +35,12 @@ class Button {
 			game.objects = instructions();
 			game.mousePressed=false;
 			}
+
 			if(this.id=='gameover'){ 
 			game.obejcts = gameover();
 			game.mousePressed=false;
 			}
+			
 			if(this.id=='sound'){
 				if(game.music.play_started){
 					game.music.stop();
@@ -57,7 +59,7 @@ class Button {
     // Render self
     draw(ctx) {
       ctx.save()    
-      ctx.drawImage(this.image,this.x, this.y, this.width, this.height )  
+      ctx.drawImage(this.image, this.x, this.y, this.width, this.height )  
       ctx.restore()
     }
 }
