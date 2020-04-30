@@ -27,7 +27,7 @@ class Postava {
     }
     // Movement logic
     move(dt) {
-    document.addEventListener("keydown", event => {
+    /*document.addEventListener("keydown", event => {
       switch (event.keyCode) {
         default:
           break;
@@ -57,7 +57,7 @@ class Postava {
           if (postava.speed > 0) stop();
           break;
     }
-  });
+  });*/
 }
 
   

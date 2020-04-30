@@ -30,6 +30,13 @@ class Game {
     this.mousePressed = false;
     this.click = false;
   };
+  onkeydown (event) {
+      this.keyCode = ;
+    // novy objekt
+  };
+  onkeyup (event) {
+ 
+};
   
 
 	

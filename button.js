@@ -22,7 +22,10 @@ class Button {
 		if(game.mousePressed){
 			//debugger;
 			if(this.id=='level'){
-				if(game.music.play_started) game.music.play();
+				if(game.music.play_started) {
+				game.music.refresh();
+				game.music.play();
+				}
 			game.objects = level();
 			game.mousePressed=false;
 			}
@@ -44,12 +47,11 @@ class Button {
 			if(this.id=='sound'){
 				if(game.music.play_started){
 					game.music.stop();
-					game.clickSound.sound.volume = 0;
+					game.jumpSound.sound.volume = 0;
 				}
 				else{ 
-					game.music.refresh();  //vzdy zacne hrat hudba od znova
-					game.music.play();		
-					game.clickSound.sound.volume = 0.5;
+					game.music.play();
+					game.jumpSound.sound.volume = 0.5;		
 				}					
 				game.mousePressed=false;				
 			} 

@@ -10,7 +10,7 @@ class Brick {
   
       this.game = game;
     }
-    update() {}
+    move() {}
     draw(ctx) {
       ctx.drawImage(
         this.image,
